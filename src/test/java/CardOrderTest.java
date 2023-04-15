@@ -38,7 +38,7 @@ class CardOrderTest {
     @Test
     void positiveTest() {
         driver.get("http://localhost:9999/");
-        driver.findElement(By.cssSelector("[data-test-id= 'name'].input")).sendKeys("Вася Пупкин");
+        driver.findElement(By.cssSelector("[data-test-id= 'name'].input")).sendKeys("Вася-Васин Пупкин");
         driver.findElement(By.cssSelector("[data-test-id= 'phone'].input")).sendKeys("+79115552575");
         driver.findElement(By.cssSelector("[data-test-id= 'agreement']")).click();
         driver.findElement(By.className("button__text")).click();
