@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SeleniumTest {
+class CardOrderTest {
 
     private WebDriver driver;
 
